@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+.main{
+    text-align: center;
+    border: 2px solid black;
+    max-width: 320px;
+    height: 480px;
+    /* max-width: 50%; */
+    margin: auto;
+    background-color: darkgrey
+}    
+h1{
+    color: black;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    
+
+}
+.main input{
+    width: 70%;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.main Button{
+    border-radius: 40px;
+    width: 50px;
+    font-size: large;
+    border: 1px solid black;
+}
+
+Button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
